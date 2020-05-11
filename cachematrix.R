@@ -1,7 +1,7 @@
-# Assignment: Caching the Inverse of a Matrixless 
+# Assignment: Caching the Inverse of a Matrix
 # Matrix inversion is usually a costly computation and there may be some benefit to caching
 # the inverse of a matrix rather than compute it repeatedly 
-# Write a pair of functions that cache the inverse of a matrix.
+# Assigment is to write a pair of functions that cache the inverse of a matrix.
 #
 # Part 1
 # This function creates a special matrix object that can cache its inverse
