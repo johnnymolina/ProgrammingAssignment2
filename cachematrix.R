@@ -35,7 +35,7 @@ cacheSolve <- function(x, ...) {
   dmy <- x$getInverse()
   if(!is.null(dmy)){
   message(" Matrix already calculated. Getting cached data .....")
-  return(dmyj)
+  return(dmy)
   }
   mat <- x$get()
   dmy <- solve(mat,...)
